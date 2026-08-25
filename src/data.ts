@@ -64,32 +64,28 @@ export const PROJECTS = [
 export const JOURNAL = [
   {
     title: "Building multi-agent AI that survives production",
-    image:
-      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&q=80",
+    image: "/journal/01-multi-agent.jpg",
     readTime: "6 min",
     date: "2025",
     href: "https://decodebars.com",
   },
   {
     title: "From broadcast floors to shipping SaaS solo",
-    image:
-      "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=400&q=80",
+    image: "/journal/02-broadcast-saas.jpg",
     readTime: "5 min",
     date: "2024",
     href: "https://mockmapr.com",
   },
   {
     title: "Two patents, one game — design meets invention",
-    image:
-      "https://images.unsplash.com/photo-1611195974226-ef4b4a1e5b0d?w=400&q=80",
+    image: "/journal/03-patents-game.jpg",
     readTime: "4 min",
     date: "Nov 2024",
     href: "https://patents.google.com/patent/USD1051685S1",
   },
   {
     title: "Databricks-accredited GenAI architecture & governance",
-    image:
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&q=80",
+    image: "/journal/04-databricks-genai.jpg",
     readTime: "3 min",
     date: "2025",
     href: "#resume",
