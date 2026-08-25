@@ -3,6 +3,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger"
 import { motion } from "framer-motion"
 import { useEffect, useRef, useState } from "react"
 import { EXPLORATIONS } from "../data"
+import { SafeImage } from "./SafeImage"
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -156,7 +157,7 @@ export function Explorations() {
             className="relative max-w-3xl overflow-hidden rounded-3xl border border-stroke"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
+            <SafeImage
               src={lightbox.image}
               alt={lightbox.title}
               className="max-h-[70vh] w-full object-cover"
@@ -204,7 +205,7 @@ function ExplorationCard({
       className="aspect-square w-full max-w-[320px] overflow-hidden rounded-2xl border border-stroke bg-surface shadow-lg shadow-black/30 transition-transform duration-300 hover:scale-[1.03]"
       style={{ transform: `rotate(${rotate}deg)` }}
     >
-      <img
+      <SafeImage
         src={item.image}
         alt={item.title}
         className="h-full w-full object-cover"

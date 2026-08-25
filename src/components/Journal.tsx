@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { JOURNAL } from "../data"
+import { SafeImage } from "./SafeImage"
 
 const ease = [0.25, 0.1, 0.25, 1] as const
 
@@ -54,7 +55,7 @@ export function Journal() {
               }
               className="flex flex-col items-stretch gap-4 rounded-[40px] border border-stroke bg-surface/30 p-4 transition-colors hover:bg-surface sm:flex-row sm:items-center sm:gap-6 sm:rounded-full"
             >
-              <img
+              <SafeImage
                 src={entry.image}
                 alt=""
                 className="h-24 w-full shrink-0 rounded-[28px] object-cover sm:h-16 sm:w-24 sm:rounded-full"

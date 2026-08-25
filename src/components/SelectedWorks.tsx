@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import { PROJECTS } from "../data"
+import { SafeImage } from "./SafeImage"
 
 const ease = [0.25, 0.1, 0.25, 1] as const
 
@@ -57,7 +58,7 @@ export function SelectedWorks() {
               rel="noopener noreferrer"
               className={`group relative overflow-hidden rounded-3xl border border-stroke bg-surface ${project.span} ${project.aspect}`}
             >
-              <img
+              <SafeImage
                 src={project.image}
                 alt={project.title}
                 className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"

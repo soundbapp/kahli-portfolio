@@ -10,7 +10,10 @@ import { Stats } from "../components/Stats"
 
 export default function Index() {
   const [isLoading, setIsLoading] = useState(true)
-  const handleComplete = useCallback(() => setIsLoading(false), [])
+  const handleComplete = useCallback(() => {
+    setIsLoading(false)
+    window.dispatchEvent(new Event("portfolio:ready"))
+  }, [])
 
   useEffect(() => {
     document.body.style.overflow = isLoading ? "hidden" : ""

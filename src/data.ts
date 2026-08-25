@@ -25,7 +25,7 @@ export const PROJECTS = [
     description:
       "High-level convening of global policymakers and business leaders at GW — raw conference source cut into finished, platform-ready packages for VOA Africa.",
     href: "https://www.voaafrica.com/a/leaders-convene-at-gw-to-discuss-economic-strategies-for-africa/7592568.html",
-    image: "/explorations/01-africa-economic-forum.png",
+    image: "/explorations/01-africa-economic-forum.jpg",
     span: "md:col-span-7",
     aspect: "aspect-[16/10]",
   },
@@ -35,7 +35,7 @@ export const PROJECTS = [
     description:
       "One-on-one conversation with Hollywood executive Chris Fenton — sit-down source shaped into a timed, branded interview package.",
     href: "https://www.voaafrica.com/a/feeding-the-dragon-hollywood-executive-chris-fenton-s-experiences-and-insights-on-dealing-with-china-in-the-entertainment-industry-/7327959.html",
-    image: "/explorations/02-chris-fenton-interview.png",
+    image: "/explorations/02-chris-fenton-interview.jpg",
     span: "md:col-span-5",
     aspect: "aspect-[4/5]",
   },
@@ -45,7 +45,7 @@ export const PROJECTS = [
     description:
       "Trailblazer — longform documentary storytelling produced for national broadcast.",
     href: "https://www.youtube.com/watch?v=1S7_ira6fAo&t=15s",
-    image: "https://img.youtube.com/vi/1S7_ira6fAo/maxresdefault.jpg",
+    image: "/thumbs/frame-of-hope.jpg",
     span: "md:col-span-5",
     aspect: "aspect-[4/5]",
   },
@@ -55,7 +55,7 @@ export const PROJECTS = [
     description:
       "Policy and civic explainers — the end of the American penny, global tariffs — motion design finished for national audiences.",
     href: "https://www.youtube.com/watch?v=45YwevkKuD8",
-    image: "https://img.youtube.com/vi/45YwevkKuD8/maxresdefault.jpg",
+    image: "/thumbs/penny.jpg",
     span: "md:col-span-7",
     aspect: "aspect-[16/10]",
   },
@@ -99,32 +99,32 @@ export const JOURNAL = [
 export const EXPLORATIONS = [
   {
     title: "Africa Economic Forum",
-    image: "/explorations/01-africa-economic-forum.png",
+    image: "/explorations/01-africa-economic-forum.jpg",
     href: "https://www.voaafrica.com/a/leaders-convene-at-gw-to-discuss-economic-strategies-for-africa/7592568.html",
   },
   {
     title: "Chris Fenton Interview",
-    image: "/explorations/02-chris-fenton-interview.png",
+    image: "/explorations/02-chris-fenton-interview.jpg",
     href: "https://www.voaafrica.com/a/feeding-the-dragon-hollywood-executive-chris-fenton-s-experiences-and-insights-on-dealing-with-china-in-the-entertainment-industry-/7327959.html",
   },
   {
     title: "Kenya UBI Story",
-    image: "/explorations/03-kenya-ubi-kogutu.png",
+    image: "/explorations/03-kenya-ubi-kogutu.jpg",
     href: "https://www.voaafrica.com/a/filmmakers-document-the-impact-of-kenya-s-universal-basic-income-in-kogutu-/7300206.html",
   },
   {
     title: "Fashion on Wheels",
-    image: "/explorations/04-fashion-on-wheels.png",
+    image: "/explorations/04-fashion-on-wheels.jpg",
     href: "https://www.voaafrica.com/a/new-york-based-entrepreneur-turns-barber-shop-into-trendy-fashion-store-on-wheels/7902678.html",
   },
   {
     title: "End of the Penny",
-    image: "https://img.youtube.com/vi/45YwevkKuD8/hqdefault.jpg",
+    image: "/thumbs/penny.jpg",
     href: "https://www.youtube.com/watch?v=45YwevkKuD8",
   },
   {
     title: "Global Tariffs Motion",
-    image: "https://img.youtube.com/vi/I78isOXAzO4/hqdefault.jpg",
+    image: "/thumbs/tariffs.jpg",
     href: "https://www.youtube.com/watch?v=I78isOXAzO4",
   },
 ]
